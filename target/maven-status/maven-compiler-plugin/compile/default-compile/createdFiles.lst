@@ -1,0 +1,17 @@
+com\vcprojects\tcontrol\config\JPAConfig.class
+com\vcprojects\tcontrol\service\UserService.class
+com\vcprojects\tcontrol\dao\DataDAOImpl.class
+com\vcprojects\tcontrol\model\Role.class
+com\vcprojects\tcontrol\controllers\DataController.class
+com\vcprojects\tcontrol\dao\UserDAO.class
+com\vcprojects\tcontrol\controllers\MainController.class
+com\vcprojects\tcontrol\model\Data.class
+com\vcprojects\tcontrol\controllers\UserController.class
+com\vcprojects\tcontrol\service\DataService.class
+com\vcprojects\tcontrol\service\DataServiceImpl.class
+com\vcprojects\tcontrol\dao\DataDAO.class
+com\vcprojects\tcontrol\dao\UserDAOImpl.class
+com\vcprojects\tcontrol\model\User.class
+com\vcprojects\tcontrol\config\Initializer.class
+com\vcprojects\tcontrol\service\UserServiceImpl.class
+com\vcprojects\tcontrol\config\WebConfig.class

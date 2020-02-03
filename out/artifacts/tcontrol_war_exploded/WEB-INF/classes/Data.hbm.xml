@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.vcprojects.model.Data" table="data">
+        <meta attribute="class-description">
+            This class contains product's details.
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="device" column="device" type="string"/>
+        <property name="sensor1" column="sensor1" type="string"/>
+        <property name="sensor2" column="sensor2" type="string"/>
+        <property name="sensor3" column="sensor3" type="string"/>
+        <property name="dateTime" column="dateTime" type="date"/>  //*********** type="string"
+    </class>
+</hibernate-mapping>
