@@ -14,4 +14,5 @@ public interface UserService {
 
     public void deleteUser(int theId);
 
+    User findByUsername(String username); // 03.20.2020
 }

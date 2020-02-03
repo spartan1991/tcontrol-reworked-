@@ -21,7 +21,7 @@ public class UserDAOImpl implements UserDAO {
     private SessionFactory sessionFactory;
 
     @Override
-    public List < User > getUsers() {
+    public List getUsers() {
         Session session = sessionFactory.getCurrentSession();
         CriteriaBuilder cb = session.getCriteriaBuilder();
         CriteriaQuery < User > cq = cb.createQuery(User.class);
@@ -36,6 +36,11 @@ public class UserDAOImpl implements UserDAO {
         Session session = sessionFactory.getCurrentSession();
         User user = session.byId(User.class).load(id);
         session.delete(user);
+    }
+
+    @Override
+    public User findByUsername(String username) {
+        return null;
     }
 
     @Override

@@ -25,8 +25,8 @@
         </property>
 
         <mapping resource="User.hbm.xml"/>
-        <mapping class="com.vcprojects.model.User"/>
+        <mapping class="com.vcprojects.tcontrol.model.User"/>
         <mapping resource="Data.hbm.xml"/>
-        <mapping class="com.vcprojects.model.Data"/>
+        <mapping class="com.vcprojects.tcontrol.model.Data"/>
     </session-factory>
 </hibernate-configuration>

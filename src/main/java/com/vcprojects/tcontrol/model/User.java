@@ -1,6 +1,7 @@
 package com.vcprojects.tcontrol.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -8,48 +9,59 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private int id;
-    @Column(name = "login")
-    private String login;
-    @Column(name = "email")
-    private String email;
+    private Long id;
+
+    @Column(name = "username")
+    private String username;
+
     @Column(name = "password")
     private String password;
+
+    @Transient
+    transient private String confirmPassword;
+
+    @ManyToMany
+    @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private Set<Role> roles;
+
+    @Column(name = "email")
+    private String email;
     @Column(name = "country")
     private String country;
 
     public User(){
     }
 
-    public User(int id, String login, String email, String password, String country){
+    public User(Long id, String username, String email, String password, String country){
         this.id = id;
-        this.login = login;
+        this.username = username;
         this.email = email;
         this.password = password;
         this.country = country;
     }
 
-    public User(String login, String email, String password, String country){
-        this.login = login;
+    public User(String username, String email, String password, String country){
+        this.username = username;
         this.email = email;
         this.password = password;
         this.country = country;
     }
 
-    public int getId(){
+    public Long getId(){
         return id;
     }
 
-    public void setId(int id){
+    public void setId(Long id){
         this.id = id;
     }
 
-    public String getLogin(){
-        return login;
+    public String getUsername(){
+        return username;
     }
 
-    public void setLogin(String login){
-        this.login = login;
+    public void setUsername(String username){
+        this.username = username;
     }
 
     public String getEmail(){
@@ -77,13 +89,13 @@ public class User {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "User{" +
-                "id = " + id +
-                "login = " + login +
-                "email = " + email +
-                "password = " + password +
-                "country = " + country +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", country='" + country + '\'' +
                 '}';
     }
 }
