@@ -28,18 +28,23 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public List < User > getUsers() {
-        return userDAO.getUsers();
-    }
-
-    @Override
-    @Transactional
     public void saveUser(User theUser) {
         theUser.setPassword(bCryptPasswordEncoder.encode(theUser.getPassword()));
         Set<Role> roles = new HashSet<>();
         roles.add(roleDAO.getOne(1L));
         theUser.setRoles(roles);
         userDAO.saveUser(theUser);
+    }
+
+    @Override
+    public User findByUsername(String username) {     // 03.20.2020
+        return userDAO.findByUsername(username);
+    }
+
+    @Override
+    @Transactional
+    public List<User> getUsers() {
+        return userDAO.getUsers();
     }
 
     @Override
@@ -54,8 +59,4 @@ public class UserServiceImpl implements UserService {
         userDAO.deleteUser(theId);
     }
 
-    @Override
-    public User findByUsername(String username) {     // 03.20.2020
-        return null;
-    }
 }

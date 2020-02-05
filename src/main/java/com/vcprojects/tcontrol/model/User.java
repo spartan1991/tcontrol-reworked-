@@ -98,4 +98,11 @@ public class User {
                 ", country='" + country + '\'' +
                 '}';
     }
+
+    public void setRoles(Set<Role> roles) {
+    }
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
 }
