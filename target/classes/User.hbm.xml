@@ -4,16 +4,16 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.vcprojects.model.User" table="users">
+    <class name="com.vcprojects.tcontrol.model.User" table="users">
         <meta attribute="class-description">
             This class contains user's details.
         </meta>
         <id name="id" type="int" column="id">
             <generator class="native"/>
         </id>
-        <property name="login" column="login" type="string"/>
-        <property name="email" column="email" type="string"/>
+        <property name="username" column="username" type="string"/>
         <property name="password" column="password" type="string"/>
+        <property name="email" column="email" type="string"/>
         <property name="country" column="country" type="string"/>
     </class>
 </hibernate-mapping>
