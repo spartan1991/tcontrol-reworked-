@@ -7,9 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fed922b3-6894-436a-9dbc-f66bd1a5fa33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/service/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/service/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/validator/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/tcontrol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/tcontrol_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/tcontrol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/tcontrol_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Vladimir_Chornenkiy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Vladimir_Chornenkiy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vcprojects/tcontrol/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/validation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/validation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/authorization.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/authentication.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/graphics.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/graphics.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/Initializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/JPAConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vcprojects/tcontrol/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/Data.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/Data.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/Initializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/JPAConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/dao/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/dao/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/com/vcprojects/tcontrol/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/validation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/classes/validation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/templates/authorization.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/templates/graphics.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/templates/graphics.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/tcontrol-1.0-SNAPSHOT/WEB-INF/templates/index.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +123,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -167,9 +209,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="tcontrol:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
@@ -245,6 +285,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -322,6 +367,7 @@
       <workItem from="1580752734592" duration="7638000" />
       <workItem from="1580856472744" duration="4137000" />
       <workItem from="1581021794703" duration="4987000" />
+      <workItem from="1581367009325" duration="6344000" />
     </task>
     <servers />
   </component>
@@ -379,75 +425,75 @@
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578945691232" />
     <state x="289" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580688721846" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1581022732936">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1581372741898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581022732936" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581372741898" />
     <state x="685" y="198" key="FileChooserDialogImpl" timestamp="1580503827385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="548" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576753872160" />
     <state x="685" y="198" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580503827385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580688868045">
+    <state width="1293" height="189" key="GridCell.Tab.0.bottom" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868045" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580688868045">
+    <state width="1293" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.0.center" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868045" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580688868045">
+    <state width="1293" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.0.left" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868045" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580688868045">
+    <state width="1293" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.0.right" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868045" />
-    <state width="1293" height="189" key="GridCell.Tab.1.bottom" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.1.bottom" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.1.center" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.1.center" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.1.left" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.1.left" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.1.right" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.1.right" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.2.bottom" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.2.bottom" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.2.center" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.2.center" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.2.left" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.2.left" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
-    <state width="1293" height="189" key="GridCell.Tab.2.right" timestamp="1580688868042">
+    <state width="1293" height="189" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
+    <state width="1293" height="189" key="GridCell.Tab.2.right" timestamp="1581375352682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="862" height="191" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1579217246803" />
-    <state width="1293" height="189" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580688868042" />
+    <state width="1293" height="189" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581375352682" />
     <state width="237" height="577" key="HiddenNamespacesPopup" timestamp="1580680624062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -457,11 +503,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580757718533" />
-    <state x="349" y="0" key="SettingsEditor" timestamp="1580752791687">
+    <state x="349" y="0" key="SettingsEditor" timestamp="1581374738796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578942046105" />
-    <state x="349" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580752791687" />
+    <state x="349" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581374738796" />
     <state x="596" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580503719733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

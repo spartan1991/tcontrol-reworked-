@@ -24,6 +24,7 @@ public class Initializer implements WebApplicationInitializer {
 
         ctx.register(JPAConfig.class);
         ctx.register(WebConfig.class);
+        ctx.register(WebSecurityConfig.class); //10.02.2020
 
         servletContext.addListener(new ContextLoaderListener(ctx));
 

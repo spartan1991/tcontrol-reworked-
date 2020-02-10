@@ -34,7 +34,7 @@
             <a href="/tcontrol_war_exploded/graphics">GRAPHICS</a>   <!--projects.html-->
             <a href="#">SERVICE</a>   <!--services.html-->
             <a href="/tcontrol_war_exploded/addData">ADD(DATA)</a>   <!--contacts.html-->
-            <a href="/tcontrol_war_exploded/authorization">AUTHORIZATION</a>         <!--about.html-->
+            <a href="/tcontrol_war_exploded/authentication">AUTHORIZATION</a>         <!--about.html-->
             <a href="/tcontrol_war_exploded/registration">REGISTRATION</a>   <!--location.html-->
         </div>
     </nav>

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.vcprojects.*"})
+@ComponentScan(basePackages = {"com.vcprojects.tcontrol.*"})
 public class WebConfig implements WebMvcConfigurer {
 
     @Override

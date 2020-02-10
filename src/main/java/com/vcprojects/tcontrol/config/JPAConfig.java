@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = {"com.vcprojects"})
+@ComponentScan(basePackages = {"com.vcprojects.tcontrol.*"})
 
 public class JPAConfig {
 
@@ -88,7 +88,7 @@ CREATE TABLE user_roles(
   role_id INT(6) NOT NULL,
   KEY user (user_id),
   KEY role (role_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
 
 */
 

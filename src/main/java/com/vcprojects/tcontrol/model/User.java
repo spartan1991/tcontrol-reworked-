@@ -18,7 +18,7 @@ public class User {
     private String password;
 
     @Transient
-    transient private String confirmPassword;
+    private String confirmPassword;
 
     @ManyToMany
     @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"),
@@ -104,5 +104,9 @@ public class User {
 
     public Set<Role> getRoles() {
         return roles;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
     }
 }
