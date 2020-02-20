@@ -1,5 +1,6 @@
 package com.vcprojects.tcontrol.config;
 
+import com.vcprojects.tcontrol.service.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -32,14 +33,9 @@ public class WebSecurityConfig {
         };
     }
 
-    @Bean(name = "userDetailsService")
-    public UserDetailsService userDetailsService() {
+    @Bean(name = "userDetailsServiceImpl")
+    public UserDetailsServiceImpl userDetailsServiceImpl() {
 
-        return new UserDetailsService() {
-            @Override
-            public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-                return null;
-            }
-        };
+            return new UserDetailsServiceImpl();
     }
 }

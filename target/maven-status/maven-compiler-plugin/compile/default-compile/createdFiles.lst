@@ -1,6 +1,5 @@
 com\vcprojects\tcontrol\service\UserService.class
 com\vcprojects\tcontrol\dao\DataDAOImpl.class
-com\vcprojects\tcontrol\config\WebSecurityConfig$2.class
 com\vcprojects\tcontrol\controllers\DataController.class
 com\vcprojects\tcontrol\dao\UserDAO.class
 com\vcprojects\tcontrol\controllers\MainController.class

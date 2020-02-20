@@ -15,7 +15,8 @@ public class MainController {
     @Autowired
     private DataService dataService;
 
-    @GetMapping("/")
+    @GetMapping({"/", "home"})
+    //@GetMapping("/")  //Commented 11.02.2020
     public String listDatas(Model theModel) {
         List<Data> theDatas = dataService.getDatas();
         theModel.addAttribute("datas", theDatas);
